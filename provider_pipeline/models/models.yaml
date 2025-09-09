@@ -6,6 +6,9 @@ models:
     columns:
       - name: provider_id
         description: "Unique identifier for the provider"
+        tests:
+          - unique
+          #- not_null i am almost certain this should be a test but i don't know how the clean the data will be in your testing so leaving it off for now
       - name: addresses
         description: "array of address structs, each containing the address id, street, and rank"
   - name: provider_types

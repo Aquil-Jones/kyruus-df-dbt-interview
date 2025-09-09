@@ -34,7 +34,6 @@ ORDER BY provider_id
 
 /*
 This is a different version that would be compatible with BigQuery
--- models/provider_address_agg.sql
 {{
     config(
         materialized='table'

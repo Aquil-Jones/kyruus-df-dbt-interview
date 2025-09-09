@@ -45,6 +45,7 @@ LEFT JOIN providers_lowest_rank plr
     ON provs.id = plr.provider_id AND plr.rn = 1
 ORDER BY provider_id
 
+
 /*
 This is a different version that would be compatible with BigQuery
 {{

@@ -18,6 +18,7 @@ def query_duckdb():
         result_df = conn.execute(query).fetchdf()
         
         # Print the results
+        #print an informational header
         #print("Provider Address Aggregation Table:")
         #print("=" * 70)
         
